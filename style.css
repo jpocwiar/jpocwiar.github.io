@@ -12,6 +12,7 @@ body {
 
 .topnav {
   background-color: #070707;
+  position: sticky;
   color: #fff;
   display: flex;
   justify-content: space-between;
