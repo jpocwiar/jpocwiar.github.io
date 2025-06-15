@@ -5,7 +5,6 @@
 *.json
 # C extensions
 *.so
-OPENAI_API_KEY.txt
 # Distribution / packaging
 .Python
 __pycache__/
