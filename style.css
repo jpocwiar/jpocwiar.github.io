@@ -189,3 +189,62 @@ a:hover {
   transform: translateY(-2px) scale(1.005);
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
 }
+@media (max-width: 768px) {
+  .layout {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: static;
+    box-shadow: none;
+    padding: 1.5rem;
+    order: -1; /* sidebar nad contentem */
+  }
+
+  .topnav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+
+  .topnav a {
+    margin: 0.5rem 0 0;
+  }
+
+  .content {
+    padding: 1rem;
+  }
+
+  section {
+    padding: 1.5rem 1rem;
+  }
+
+  .album-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .album {
+    max-width: 100%;
+  }
+
+  .album img,
+  .album-cover {
+    width: 100%;
+    height: auto;
+  }
+
+  .profile-info {
+    font-size: 1rem;
+  }
+
+  .links a {
+    font-size: 1rem;
+  }
+
+  .album-header {
+    min-height: auto;
+  }
+}
